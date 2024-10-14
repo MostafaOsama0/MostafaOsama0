@@ -1,58 +1,62 @@
-# 👋 Hi, I'm Mostafa Osama
+# 👋 Hi, I'm Mostafa Osama  
 
-### 🌐 Data Analyst | 📊 Turning raw data into meaningful insights
+### 🌐 Data Analyst | 📊 Turning raw data into meaningful insights  
 
-I'm a Computer Science student passionate about analyzing and visualizing data to drive decision-making. I enjoy uncovering patterns and trends through tools like Excel, Power BI, and Power Query, creating meaningful dashboards that tell data-driven stories. With hands-on experience in multiple projects, I thrive in finding insights that contribute to business growth.
+I'm a Computer Science student eager to turn raw data into actionable insights. With advanced skills in **Excel**, **Power BI**, and **Power Query**, I enjoy finding patterns, building dashboards, and telling stories through data. Whether through problem-solving or teamwork, I’m always focused on creating meaningful visualizations that drive decisions.
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/MustafaOsama0)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub&logoColor=white)](https://github.com/MOSTAFA-CRYPT)
-[![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/MustafaOsama0)  
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub&logoColor=white)](https://github.com/MostafaOsama0)  
+[![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)  
 
 📍 Mansoura, Daqahliyah, Egypt  
-📱 +20 012 712 395 91
+📱 +20 012 712 395 91  
 
 ---
 
-## 🛠️ **Skills**
-- **Excel** (VLookup, Conditional Formatting, Pivot Tables)
-- **Power BI** (Dashboarding, Data Visualization)
-- **Power Query** (ETL, Data Cleaning)
-- **Analytical Thinking & Problem Solving**
-- **Team Collaboration**
+## 🛠️ **Skills**  
+- **Advanced Excel** (VLookup, Conditional Formatting, Pivot Tables)  
+- **Power BI** (Dashboarding, Data Visualization)  
+- **Power Query** (ETL, Data Transformation)  
+- **Analytical Thinking & Problem Solving**  
+- **Team Collaboration**  
 
 ---
 
 ## 🚀 **Projects**
 
-### [📈 US Sales Data Analysis](https://github.com/MOSTAFA-CRYPT/US_Sales_Data) (Sep 2024)
-- Used Excel to analyze sales data, generating insights on sales by ship mode, product sub-categories, and overall performance.
-- Created a dashboard using pivot tables and Excel charts to highlight key metrics.
+### [📈 US Sales Data Analysis](https://github.com/MostafaOsama0/US_Sales_Data) (Sep 2024)  
+- Utilized Excel to analyze job market data for analytics roles.  
+- Developed pivot tables to track sales by ship mode, product sub-categories, and category performance.  
+- Created a professional dashboard using Excel charts to highlight key metrics.  
 
-### [🍕 Pizza Store Data Analysis](https://github.com/MOSTAFA-CRYPT/Pizza_Store_Analysis) (Oct 2024)
-- Performed ETL using Power Query to analyze pizza store sales data.
-- Built KPIs for sales growth and visualized findings through a Power BI dashboard.
+### [🍕 Pizza Store Data Analysis](https://github.com/MostafaOsama0/Pizza_Store_Analysis) (Oct 2024)  
+- Performed ETL operations using Power Query to clean and transform data.  
+- Developed KPIs to measure store growth potential.  
+- Visualized insights with Power BI dashboards.  
 
-### [📊 Social Media Metrics Dashboard](https://github.com/MOSTAFA-CRYPT/Social_Media_Dashboard) (Sep 2024)
-- Built a dashboard in Excel to showcase total impressions for various social media apps.
-- Processed and transformed data to ensure completeness and accuracy, using Excel charts for final visualization.
+### [📊 Social Media Metrics Dashboard](https://github.com/MostafaOsama0/Social_Media_Dashboard) (Sep 2024)  
+- Created an Excel dashboard to track total impressions for various social media apps.  
+- Ensured data completeness and validity through transformation processes.  
+- Used Excel charts for final data visualization.  
 
-### [💼 Sales Dataset Analysis](https://github.com/MOSTAFA-CRYPT/Sales_Dataset_Analysis) (Aug 2024)
-- Analyzed over 60,000 sales transactions across ten markets using Excel.
-- Cleaned and visualized data to create an interactive dashboard highlighting market-specific sales insights.
+### [💼 Sales Dataset Analysis](https://github.com/MostafaOsama0/Sales_Dataset_Analysis) (Aug 2024)  
+- Analyzed over 60,000 sales operations across ten markets using Excel.  
+- Cleaned and performed text analysis to identify market-specific sales trends.  
+- Created an interactive dashboard to visualize market performance.  
 
-### [🛍️ Vrinda Store Analysis](https://github.com/MOSTAFA-CRYPT/Vrinda_Store_Analysis) (Aug 2024)
-- Analyzed Vrinda store's sales data using Excel, transforming and filtering to enhance reporting accuracy.
-- Created visualizations to identify business intelligence for improving sales performance.
+### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Vrinda_Store_Analysis) (Aug 2024)  
+- Analyzed Vrinda store data using Excel to enhance reporting accuracy.  
+- Applied Excel functions to transform and filter data.  
+- Developed charts to visualize key business intelligence for improving sales performance.  
 
 ---
 
-## 🎓 **Education**
-
+## 🎓 **Education**  
 **Bachelor of Computer Science**  
 BNU University, Obour, Qalyubia, Egypt  
-_Expected Graduation: June 2027_
+_Expected Graduation: June 2027_  
 
 ---
 
-### 🔍 **Let's Connect!**
-I'm always looking to collaborate on exciting data projects or discuss new opportunities. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/MustafaOsama0) or [email](mailto:mostafaosama7213@gmail.com)!
+### 🔍 **Let's Connect!**  
+I'm open to collaboration on exciting data projects or new opportunities. Let's connect on [LinkedIn](https://www.linkedin.com/in/MustafaOsama0) or feel free to reach out via [email](mailto:mostafaosama7213@gmail.com)!
