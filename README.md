@@ -24,27 +24,27 @@ I'm a Computer Science student eager to turn raw data into actionable insights. 
 
 ## 🚀 **Projects**
 
-### [📈 US Sales Data Analysis](https://github.com/MostafaOsama0/US_Sales_Data) (Sep 2024)  
+### [📈 US Sales Data Analysis](https://github.com/MostafaOsama0/Projects/blob/main/US_Dataset%20Project.xlsx) (Sep 2024)  
 - Utilized Excel to analyze job market data for analytics roles.  
 - Developed pivot tables to track sales by ship mode, product sub-categories, and category performance.  
 - Created a professional dashboard using Excel charts to highlight key metrics.  
 
-### [🍕 Pizza Store Data Analysis](https://github.com/MostafaOsama0/Pizza_Store_Analysis) (Oct 2024)  
+### [🍕 Pizza Store Data Analysis](https://github.com/MostafaOsama0/Projects/blob/main/Pizza%20Store%20Power%20Bi.pbix) (Oct 2024)  
 - Performed ETL operations using Power Query to clean and transform data.  
 - Developed KPIs to measure store growth potential.  
 - Visualized insights with Power BI dashboards.  
 
-### [📊 Social Media Metrics Dashboard](https://github.com/MostafaOsama0/Social_Media_Dashboard) (Sep 2024)  
+### [📊 Social Media Metrics Dashboard](https://github.com/MostafaOsama0/Projects/blob/main/Social-Media-Metrics%20Project.xlsx) (Sep 2024)  
 - Created an Excel dashboard to track total impressions for various social media apps.  
 - Ensured data completeness and validity through transformation processes.  
 - Used Excel charts for final data visualization.  
 
-### [💼 Sales Dataset Analysis](https://github.com/MostafaOsama0/Sales_Dataset_Analysis) (Aug 2024)  
+### [💼 Sales Dataset Analysis](https://github.com/MostafaOsama0/Projects/blob/main/Sales_Dataset%20Project.xlsx) (Aug 2024)  
 - Analyzed over 60,000 sales operations across ten markets using Excel.  
 - Cleaned and performed text analysis to identify market-specific sales trends.  
 - Created an interactive dashboard to visualize market performance.  
 
-### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Vrinda_Store_Analysis) (Aug 2024)  
+### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Projects/blob/main/Vrinda%20Store%20Project.xlsx) (Aug 2024)  
 - Analyzed Vrinda store data using Excel to enhance reporting accuracy.  
 - Applied Excel functions to transform and filter data.  
 - Developed charts to visualize key business intelligence for improving sales performance.  
