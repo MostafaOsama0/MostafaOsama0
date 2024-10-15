@@ -53,7 +53,7 @@ I'm a Computer Science student eager to turn raw data into actionable insights. 
 
 ## 🎓 **Education**  
 **Bachelor of Computer Science**  
-BNU University, Obour, Qalyubia, Egypt  
+Benha National University, Obour, Qalyubia, Egypt  
 _Expected Graduation: June 2027_  
 
 ---
