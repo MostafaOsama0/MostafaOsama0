@@ -34,7 +34,7 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 - Developed KPIs to measure store growth potential.  
 - Visualized insights with Power BI dashboards.  
 
-### [📊 Social Media Metrics Dashboard](https://github.com/MostafaOsama0/Projects/blob/main/Social-Media-Metrics%20Project.xlsx) (Sep 2024)  
+### [📊 Social Media Metrics Dashboard](https://github.com/MostafaOsama0/Social-media-metrics-Project/tree/main) (Sep 2024)  
 - Created an Excel dashboard to track total impressions for various social media apps.  
 - Ensured data completeness and validity through transformation processes.  
 - Used Excel charts for final data visualization.  
