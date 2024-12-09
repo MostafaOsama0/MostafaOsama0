@@ -16,9 +16,12 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 ## 🛠️ **Skills**  
 - **Advanced Excel** (VLookup, Conditional Formatting, Pivot Tables)  
 - **Power BI** (Dashboarding, Data Visualization)  
-- **Power Query** (ETL, Data Transformation)  
-- **Analytical Thinking & Problem Solving**  
-- **Team Collaboration**  
+- **Power Query** (ETL, Data Transformation)
+- **MS Office** 
+- **Analytical Thinking**  
+- **Problem solving**
+- **Good Communication Skill**
+- **Team Collaboration**
 
 ---
 
