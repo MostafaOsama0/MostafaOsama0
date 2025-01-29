@@ -19,7 +19,8 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 - **Power Query** (ETL, Data Transformation)
 - **MS Office** 
 - **Analytical Thinking**  
-- **Problem solving**
+- **
+Problem solving**
 - **Good Communication Skill**
 - **Team Collaboration**
 
@@ -50,7 +51,27 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 ### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Vrinda-store-Analysis) (Aug 2024)  
 - Analyzed Vrinda store data using Excel to enhance reporting accuracy.  
 - Applied Excel functions to transform and filter data.  
-- Developed charts to visualize key business intelligence for improving sales performance.  
+- Developed charts to visualize key business intelligence for improving sales performance.
+
+### [👥 HR Project](https://github.com/MostafaOsama0/HR-Project) (Sep 2024)
+- Designed an HR analytics dashboard using Power BI and Power Query.
+- Processed employee data to track salaries, performance, and attrition trends.
+- Created interactive visualizations for better workforce insights.
+
+### [📊 HR Analysis](https://github.com/MostafaOsama0/HR-Analysis) (Sep 2024)
+- Built an HR reporting system in Power BI for workforce analysis.
+- Used Power Query to clean and transform employee datasets.
+- Developed key metrics dashboards to optimize HR decisions.
+
+### [☕ Coffee Shop Analytics](https://github.com/MostafaOsama0/Coffee-shop-Project) (Oct 2024)
+- Created a Power BI dashboard to analyze coffee shop sales and customers.
+- Utilized Power Query for data preprocessing and transformation.
+- Visualized product trends and customer preferences to boost sales.
+
+### [🚴 Bike Store Project](https://github.com/MostafaOsama0/Bike-Store-Project) (Aug 2024)
+- Conducted sales and customer analysis for a bike store using Excel.
+- Applied Excel functions for data filtering, transformation, and trend analysis.
+- Designed charts to visualize revenue, demographics, and purchase behavior.
 
 ---
 
