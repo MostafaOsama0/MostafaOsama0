@@ -47,7 +47,7 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 - Cleaned and performed text analysis to identify market-specific sales trends.  
 - Created an interactive dashboard to visualize market performance.  
 
-### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Projects/blob/main/Vrinda%20Store%20Project.xlsx) (Aug 2024)  
+### [🛍️ Vrinda Store Analysis](https://github.com/MostafaOsama0/Vrinda-store-Analysis) (Aug 2024)  
 - Analyzed Vrinda store data using Excel to enhance reporting accuracy.  
 - Applied Excel functions to transform and filter data.  
 - Developed charts to visualize key business intelligence for improving sales performance.  
