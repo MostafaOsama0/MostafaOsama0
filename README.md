@@ -19,8 +19,7 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 - **Power Query** (ETL, Data Transformation)
 - **MS Office** 
 - **Analytical Thinking**  
-- **
-Problem solving**
+- **Problem solving**
 - **Good Communication Skill**
 - **Team Collaboration**
 
