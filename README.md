@@ -2,7 +2,7 @@
 
 ### 🌐 Data Analyst 
 
-Passionate about transforming complex data into actionable insights that drive smarter decisions. With strong expertise in **Power BI**, **SQL**, and **Excel**, uncovering meaningful patterns that support data-driven strategies. Known for combining technical precision with business acumen to deliver analytical solutions that enhance performance and create measurable impact.
+Passionate about transforming complex data into actionable insights that drive smarter decisions. With strong expertise in **Power BI**, **SQL**, and **Excel**, uncovering meaningful patterns that support data-driven strategies. Known for combining technical precision with analytical thinking to deliver analytical solutions that enhance performance and create measurable impact.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mostafaosama0/)  
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)  
