@@ -13,7 +13,7 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 ---
 
 ## 🛠️ **Skills**  
-- **Advanced Excel** (VLookup, Conditional Formatting, Pivot Tables)  
+- **Advanced Excel** (VLookup, Conditional Formatting, Pivot Tables, Formulas)  
 - **Power BI** (Dashboarding, Data Visualization)  
 - **Power Query** (ETL, Data Transformation)
 - **SQL**
