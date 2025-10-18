@@ -18,7 +18,7 @@ Passionate about transforming complex data into actionable insights that drive s
 - **SQL**
 - **Python** (Pandas, NumPy, Matpolib)
 - **Power Query** (ETL, Data Transformation)
-- **data Storytelling**
+- **Data Storytelling**
 - **Analytical Thinking**  
 - **Problem solving**
 - **Communication Skills**
