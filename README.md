@@ -28,6 +28,11 @@ Passionate about transforming complex data into actionable insights that drive s
 
 ## 🚀 **Projects**
 
+### [▶️ UK_Youtubers_ROI_Analysis](https://github.com/MostafaOsama0/UK_Youtubers_ROI_Analysis) (July 2025)
+- Developed a dynamic Power BI simulation tool for UK influencer marketing, forecasting Net Profit and ROI using interactive "What-If" cost and conversion scenarios.
+- Implemented advanced DAX logic to correctly model portfolio profitability and created a two-page flow linking financial results to granular Audience Quality metrics.
+- Demonstrated a full BI workflow by integrating SQL data preparation with professional visualization for actionable, data-driven decision support.
+
 ### [📈 US Sales Data Analysis](https://github.com/MostafaOsama0/US_Dataset-Project) (Sep 2024)  
 - Analyzed job market data for analytics roles using Excel to identify key hiring trends and insights.
 - Developed PivotTables to evaluate performance by ship mode, product sub-category, and overall category.
