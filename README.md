@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Mostafa Osama  
 
-### 🌐 Data Analyst | 📊 Turning raw data into meaningful insights  
+### 🌐 Data Analyst 
 
 Passionate about transforming complex data into actionable insights that drive smarter decisions. With strong expertise in **Power BI**, **SQL**, and **Excel**, uncovering meaningful patterns that support data-driven strategies. Known for combining technical precision with business acumen to deliver analytical solutions that enhance performance and create measurable impact.
 
