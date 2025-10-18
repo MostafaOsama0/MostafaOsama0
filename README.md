@@ -18,7 +18,7 @@ I'm a **Computer Science** student eager to turn raw data into actionable insigh
 - **Power BI** (Dashboarding, Data Visualization)  
 - **Power Query** (ETL, Data Transformation)
 - **SQL**
-- **Python (Pandas, NumPy, matpolib)**
+- **Python (Pandas, NumPy, Matpolib)**
 - **MS Office** 
 - **Analytical Thinking**  
 - **Problem solving**
