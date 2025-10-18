@@ -83,4 +83,4 @@ _Expected Graduation: June 2027_
 ---
 
 ### 🔍 **Let's Connect!**  
-I'm open to collaboration on exciting data projects or new opportunities. Let's connect on [LinkedIn](https://www.linkedin.com/in/MustafaOsama0) or feel free to reach out via [email](mailto:mostafaosama7213@gmail.com)!
+I'm open to collaboration on exciting data projects or new opportunities. Let's connect on [LinkedIn](https://www.linkedin.com/in/mostafaosama0/) or feel free to reach out via [email](mailto:mostafaosama7213@gmail.com)!
