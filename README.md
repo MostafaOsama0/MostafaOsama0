@@ -2,7 +2,7 @@
 
 ### 🌐 Data Analyst | 📊 Turning raw data into meaningful insights  
 
-I'm a **Computer Science** student eager to turn raw data into actionable insights. With advanced skills in **Excel**, **Power BI**, and **Power Query**, I enjoy finding patterns, building dashboards, and telling stories through data. Whether through problem-solving or teamwork, I’m always focused on creating meaningful visualizations that drive decisions.
+Passionate about transforming complex data into actionable insights that drive smarter decisions. With strong expertise in **Power BI**, **SQL**, and **Excel**, uncovering meaningful patterns that support data-driven strategies. Known for combining technical precision with business acumen to deliver analytical solutions that enhance performance and create measurable impact.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mostafaosama0/)  
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)  
