@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Mostafa Osama  
+#  Hi, I'm Mostafa Osama  
 
 ### 🌐 Data Analyst 
 
@@ -15,10 +15,9 @@ Passionate about transforming complex data into actionable insights that drive s
 ## 🛠️ **Skills**  
 - **Advanced Excel** (VLookup, Conditional Formatting, Pivot Tables, Formulas)  
 - **Power BI** (Dashboarding, Data Visualization)  
-- **Power Query** (ETL, Data Transformation)
 - **SQL**
-- **Python (Pandas, NumPy, Matpolib)**
-- **MS Office** 
+- **Python** (Pandas, NumPy, Matpolib)
+- **Power Query** (ETL, Data Transformation)
 - **Analytical Thinking**  
 - **Problem solving**
 - **Communication Skills**
@@ -78,7 +77,7 @@ Passionate about transforming complex data into actionable insights that drive s
 ## 🎓 **Education**  
 **Bachelor of Computer Science**  
 Benha National University, Obour, Qalyubia, Egypt  
-_Expected Graduation: June 2027_  
+_Expected Graduation: 2027_  
 
 ---
 
