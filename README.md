@@ -2,8 +2,7 @@
 
 ### 🌐 Data Analyst 
 
-Passionate about transforming complex data into actionable insights that drive smarter decisions. With strong expertise in **Power BI**, **SQL**, and **Excel**, uncovering meaningful patterns that support data-driven strategies. Known for combining technical precision with analytical thinking to deliver analytical solutions that enhance performance and create measurable impact.
-
+Data Analyst skilled in Power BI, SQL, Python, and Excel, with experience building end-to-end analytics projects that transform raw data into actionable business insights. Developed interactive dashboards, automated data preparation workflows, and performance analyses across sales, HR, marketing, and operational datasets. Experienced in data cleaning, ETL, data modeling, KPI development, and data visualization, with a focus on delivering clear, data-driven recommendations that support decision-making.
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mostafaosama0/)  
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)  
 
