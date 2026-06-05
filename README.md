@@ -1,7 +1,6 @@
 #  Hi, I'm Mostafa Osama  
 
-### Data Analyst 
-#### Power BI | SQL | Python | Excel
+## Data Analyst 
 
 Data Analyst skilled in Power BI, SQL, Python, and Excel, with experience building end-to-end analytics projects that transform raw data into actionable business insights. Developed interactive dashboards, automated data preparation workflows, and performance analyses across sales, HR, marketing, and operational datasets. Experienced in data cleaning, ETL, data modeling, KPI development, and data visualization, with a focus on delivering clear, data-driven recommendations that support decision-making.
 
