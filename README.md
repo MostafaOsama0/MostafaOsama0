@@ -28,6 +28,16 @@ Data Analyst skilled in Power BI, SQL, Python, and Excel, with experience buildi
 
 ## 🚀 **Projects**
 
+### [Olist-ECommerce-Analytics](https://github.com/MostafaOsama0/Olist-ECommerce-Analytics) (Aug 2026)
+- Engineered an interactive Power BI solution analyzing 100K+ Brazilian e-commerce orders and $16.01M+ in revenue to evaluate sales trends, regional logistics, and  customer retention.
+- Implemented complex DAX calculations (`CALCULATE`, `CROSSFILTER`, `AVERAGEX`) to isolate satisfaction drivers and track customer loyalty segments.
+- Uncovered a 3.12% customer repeat rate and proved the direct impact of shipping delays on customer sentiment, with 1-star reviews taking double the delivery time (~20 days) of 5-star orders (~9 days).
+
+### [HR-Database-Management-SQL](https://github.com/MostafaOsama0/HR-Database-Management-SQL) (Aug 2026)
+- Designed a 3NF normalized database schema from scratch, establishing primary and foreign key constraints to eliminate data redundancy across core business entities.
+- Authored optimized SQL scripts and views using CTEs, multi-table joins, and window functions (`DENSE_RANK`, `ROW_NUMBER`) to solve multi-layered business intelligence   questions.
+- Transformed raw transactional records into clean, aggregation-ready datasets structured for seamless consumption in BI dashboards and reporting tools.
+
 ### [🟥 UK_Youtubers_ROI_Analysis](https://github.com/MostafaOsama0/UK_Youtubers_ROI_Analysis) (July 2025)
 - Developed a dynamic Power BI simulation tool for UK influencer marketing, forecasting Net Profit and ROI using interactive "What-If" cost and conversion scenarios.
 - Implemented advanced DAX logic to correctly model portfolio profitability and created a two-page flow linking financial results to granular Audience Quality metrics.
