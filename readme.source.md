@@ -80,66 +80,6 @@
 </div>
 ```
 
-```aura width=176 height=46 link="https://www.linkedin.com/in/mostafaosama0/" inline align=center
-<div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', padding: '0 6px', fontFamily: 'Inter, sans-serif' }}>
-  <svg width="176" height="46" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <linearGradient id="btn-li-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#38bdf8" />
-        <stop offset="50%" stopColor="#8b5cf6" />
-        <stop offset="100%" stopColor="#22d3ee" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4.5s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="7" y="1" width="162" height="44" rx="13" fill="rgba(14,22,38,0.94)" stroke="url(#btn-li-grad)" strokeWidth="1.6" />
-    <g transform="translate(32, 13) scale(0.84)">
-      <path fill="#38bdf8" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
-    </g>
-  </svg>
-  <span style={{ fontSize: 13.5, fontWeight: 600, color: '#f8fafc', marginLeft: 24, letterSpacing: 0.3 }}>LinkedIn</span>
-</div>
-```
-
-```aura width=166 height=46 link="mailto:mostafaosama7213@gmail.com" inline align=center
-<div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', padding: '0 6px', fontFamily: 'Inter, sans-serif' }}>
-  <svg width="166" height="46" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <linearGradient id="btn-em-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#f472b6" />
-        <stop offset="50%" stopColor="#8b5cf6" />
-        <stop offset="100%" stopColor="#fb7185" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4.5s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="7" y="1" width="152" height="44" rx="13" fill="rgba(26,12,28,0.94)" stroke="url(#btn-em-grad)" strokeWidth="1.6" />
-    <g transform="translate(36, 13) scale(0.84)">
-      <path fill="#fb7185" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
-    </g>
-  </svg>
-  <span style={{ fontSize: 13.5, fontWeight: 600, color: '#f8fafc', marginLeft: 24, letterSpacing: 0.3 }}>Email</span>
-</div>
-```
-
-```aura width=166 height=46 link="https://github.com/MostafaOsama0" inline align=center
-<div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', padding: '0 6px', fontFamily: 'Inter, sans-serif' }}>
-  <svg width="166" height="46" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <linearGradient id="btn-gh-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#c4b5fd" />
-        <stop offset="50%" stopColor="#22d3ee" />
-        <stop offset="100%" stopColor="#818cf8" />
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4.5s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    <rect x="7" y="1" width="152" height="44" rx="13" fill="rgba(16,14,28,0.94)" stroke="url(#btn-gh-grad)" strokeWidth="1.6" />
-    <g transform="translate(33, 13) scale(0.84)">
-      <path fill="#e2e8f0" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
-    </g>
-  </svg>
-  <span style={{ fontSize: 13.5, fontWeight: 600, color: '#f8fafc', marginLeft: 24, letterSpacing: 0.3 }}>GitHub</span>
-</div>
-```
-
 ```aura width=800 height=250
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'row', width: '100%', height: '100%', background: '#07070d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(139,92,246,0.24)', padding: 24, gap: 18 }}>
   <style>{`
