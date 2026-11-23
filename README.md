@@ -8,7 +8,6 @@ Data Analyst skilled in Power BI, SQL, Python, and Excel, with experience buildi
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white)](mailto:mostafaosama7213@gmail.com)  
 
 📍 Mansoura, Daqahliyah, Egypt  
-📱 +20 012 712 395 91  
 
 ---
 
