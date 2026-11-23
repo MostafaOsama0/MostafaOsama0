@@ -140,16 +140,18 @@
 </div>
 ```
 
-```aura width=800 height=230
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'row', width: '100%', height: '100%', background: '#07070d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(139,92,246,0.24)', padding: 24, gap: 20 }}>
+```aura width=800 height=250
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'row', width: '100%', height: '100%', background: '#07070d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(139,92,246,0.24)', padding: 24, gap: 18 }}>
   <style>{`
     @keyframes ab-drift-1 { 0%, 100% { transform: translate(0, 0); opacity: 0.55; } 50% { transform: translate(24px, -14px); opacity: 0.85; } }
     @keyframes ab-drift-2 { 0%, 100% { transform: translate(0, 0); opacity: 0.45; } 50% { transform: translate(-20px, 14px); opacity: 0.78; } }
+    @keyframes ab-shimmer { 0% { transform: translateX(-120px); opacity: 0; } 50% { opacity: 0.45; } 100% { transform: translateX(260px); opacity: 0; } }
     #ab-g1 { animation: ab-drift-1 8s ease-in-out infinite; }
     #ab-g2 { animation: ab-drift-2 10s ease-in-out infinite 0.8s; }
+    #ab-beam { animation: ab-shimmer 4.2s ease-in-out infinite; }
   `}</style>
 
-  <svg width="800" height="230" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="250" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="ab-rg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.48)" />
@@ -159,39 +161,51 @@
         <stop offset="0%" stopColor="rgba(34,211,238,0.42)" />
         <stop offset="70%" stopColor="rgba(34,211,238,0)" />
       </radialGradient>
+      <linearGradient id="ab-shine" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stopColor="rgba(34,211,238,0)" />
+        <stop offset="50%" stopColor="rgba(196,181,253,0.28)" />
+        <stop offset="100%" stopColor="rgba(34,211,238,0)" />
+      </linearGradient>
     </defs>
-    <ellipse id="ab-g1" cx="120" cy="200" rx="220" ry="130" fill="url(#ab-rg1)" />
-    <ellipse id="ab-g2" cx="710" cy="40" rx="210" ry="125" fill="url(#ab-rg2)" />
-    <line x1="652" y1="158" x2="754" y2="158" stroke="rgba(148,163,184,0.35)" strokeWidth="1" />
-    <rect x="660" y="122" width="14" height="36" rx="4" fill="#8b5cf6">
-      <animate attributeName="height" values="28;48;28" dur="3.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="130;110;130" dur="3.2s" repeatCount="indefinite" />
-    </rect>
-    <rect x="684" y="106" width="14" height="52" rx="4" fill="#6366f1">
-      <animate attributeName="height" values="42;60;42" dur="2.8s" repeatCount="indefinite" />
-      <animate attributeName="y" values="116;98;116" dur="2.8s" repeatCount="indefinite" />
-    </rect>
-    <rect x="708" y="114" width="14" height="44" rx="4" fill="#38bdf8">
-      <animate attributeName="height" values="36;56;36" dur="3.6s" repeatCount="indefinite" />
-      <animate attributeName="y" values="122;102;122" dur="3.6s" repeatCount="indefinite" />
-    </rect>
-    <rect x="732" y="96" width="14" height="62" rx="4" fill="#22d3ee">
-      <animate attributeName="height" values="52;68;52" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="106;90;106" dur="3s" repeatCount="indefinite" />
-    </rect>
+    <ellipse id="ab-g1" cx="120" cy="215" rx="220" ry="135" fill="url(#ab-rg1)" />
+    <ellipse id="ab-g2" cx="710" cy="45" rx="215" ry="135" fill="url(#ab-rg2)" />
+    <rect id="ab-beam" x="550" y="24" width="90" height="202" fill="url(#ab-shine)" />
   </svg>
 
   <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center', background: 'rgba(15,14,28,0.62)', borderRadius: 16, padding: '18px 22px', border: '1px solid rgba(148,163,184,0.16)' }}>
     <span style={{ fontSize: 11, fontWeight: 700, color: '#67e8f9', letterSpacing: 2.5, textTransform: 'uppercase', marginBottom: 10 }}>About Me · Data Analyst</span>
-    <span style={{ fontSize: 13, color: '#e2e8f0', lineHeight: 1.55 }}>
+    <span style={{ fontSize: 12.6, color: '#e2e8f0', lineHeight: 1.54 }}>
       Data Analyst skilled in Power BI, SQL, Python, and Excel, with experience building end-to-end analytics projects that transform raw data into actionable business insights. Developed interactive dashboards, automated data preparation workflows, and performance analyses across sales, HR, marketing, and operational datasets. Experienced in data cleaning, ETL, data modeling, KPI development, and data visualization, with a focus on delivering clear, data-driven recommendations that support decision-making.
     </span>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'column', width: 146, flexShrink: 0, alignItems: 'center', justifyContent: 'space-between', background: 'rgba(15,14,28,0.38)', borderRadius: 16, padding: '18px 14px', border: '1px solid rgba(139,92,246,0.22)' }}>
-    <span style={{ fontSize: 10, color: '#a5b4fc', letterSpacing: 1.8, textTransform: 'uppercase' }}>BI Telemetry</span>
-    <div style={{ height: 84 }} />
-    <span style={{ fontSize: 10.5, color: '#94a3b8' }}>Cairo, Egypt</span>
+  <div style={{ display: 'flex', flexDirection: 'column', width: 222, flexShrink: 0, justifyContent: 'center', gap: 11, background: 'rgba(15,14,28,0.62)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(139,92,246,0.24)' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 2 }}>
+      <span style={{ fontSize: 10.5, fontWeight: 700, color: '#a5b4fc', letterSpacing: 2, textTransform: 'uppercase' }}>Top Languages</span>
+      <span style={{ fontSize: 9.5, color: '#67e8f9', letterSpacing: 1 }}>LIVE</span>
+    </div>
+    {(github && github.languages && github.languages.length > 0
+      ? github.languages.slice(0, 4)
+      : [
+          { name: 'SQL', percentage: 40, color: '#22d3ee' },
+          { name: 'Python', percentage: 35, color: '#a78bfa' },
+          { name: 'Power BI', percentage: 15, color: '#818cf8' },
+          { name: 'Excel', percentage: 10, color: '#86efac' },
+        ]
+    ).map((lang, idx) => (
+      <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <div style={{ width: 7, height: 7, borderRadius: 4, background: lang.color || '#22d3ee' }} />
+            <span style={{ fontSize: 11.5, fontWeight: 600, color: '#f1f5f9' }}>{lang.name}</span>
+          </div>
+          <span style={{ fontSize: 11, fontWeight: 600, color: '#94a3b8' }}>{lang.percentage}%</span>
+        </div>
+        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(255,255,255,0.07)', borderRadius: 100, overflow: 'hidden' }}>
+          <div style={{ width: `${Math.max(lang.percentage, 8)}%`, height: '100%', background: lang.color || '#8b5cf6', borderRadius: 100 }} />
+        </div>
+      </div>
+    ))}
   </div>
 </div>
 ```
