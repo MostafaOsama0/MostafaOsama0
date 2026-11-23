@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" width="900" height="860" role="img" aria-label="Mostafa Osama - Data Analyst Terminal Profile">
+  <defs>
+    <!-- Base dark terminal gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0f" />
+      <stop offset="50%" stop-color="#0a1118" />
+      <stop offset="100%" stop-color="#071311" />
+    </linearGradient>
+
+    <!-- Moving glowing horizontal line gradients (readme-aura style) -->
+    <linearGradient id="beam-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0" />
+      <stop offset="50%" stop-color="#39d353" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="beam-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="beam-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0" />
+      <stop offset="50%" stop-color="#39d353" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle background grid -->
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="rgba(57,211,83,0.055)" stroke-width="1" />
+    </pattern>
+
+    <!-- Soft glow filter for moving lines -->
+    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Clip inside rounded terminal frame -->
+    <clipPath id="frame-clip">
+      <rect x="0" y="0" width="900" height="860" rx="16" ry="16" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    @keyframes move-right {
+      0%   { transform: translateX(-340px); opacity: 0.25; }
+      50%  { opacity: 0.95; }
+      100% { transform: translateX(1240px); opacity: 0.25; }
+    }
+
+    @keyframes move-left {
+      0%   { transform: translateX(1240px); opacity: 0.25; }
+      50%  { opacity: 0.9; }
+      100% { transform: translateX(-340px); opacity: 0.25; }
+    }
+
+    @keyframes stream-down {
+      0%   { stroke-dashoffset: 240; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes scan-sweep {
+      0%   { transform: translateY(-100px); }
+      100% { transform: translateY(960px); }
+    }
+
+    @keyframes blink {
+      0%, 49%   { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    #line-1  { animation: move-right 4.6s linear infinite; }
+    #line-2  { animation: move-left  5.8s linear infinite 0.8s; }
+    #line-3  { animation: move-right 6.4s linear infinite 1.5s; }
+    #line-4  { animation: move-left  4.9s linear infinite 0.3s; }
+    #line-5  { animation: move-right 7.1s linear infinite 2.1s; }
+    #line-6  { animation: move-left  5.3s linear infinite 1.1s; }
+    #line-7  { animation: move-right 4.2s linear infinite 0.6s; }
+    #line-8  { animation: move-left  6.6s linear infinite 2.4s; }
+    #line-9  { animation: move-right 5.5s linear infinite 1.8s; }
+    #line-10 { animation: move-left  4.8s linear infinite 0.4s; }
+
+    .v-stream-1 { stroke-dasharray: 28 212; animation: stream-down 5.5s linear infinite; }
+    .v-stream-2 { stroke-dasharray: 22 218; animation: stream-down 7.0s linear infinite 1.4s; }
+    .v-stream-3 { stroke-dasharray: 34 206; animation: stream-down 6.2s linear infinite 2.8s; }
+    .v-stream-4 { stroke-dasharray: 24 216; animation: stream-down 4.8s linear infinite 0.7s; }
+
+    #scanbar { animation: scan-sweep 11s linear infinite; }
+    #cursor  { animation: blink 1s step-end infinite; }
+  </style>
+
+  <g clip-path="url(#frame-clip)">
+    <!-- Base Background + Grid -->
+    <rect width="900" height="860" fill="url(#bg-grad)" />
+    <rect width="900" height="860" fill="url(#grid)" />
+
+    <!-- Animated Vertical Data-Stream Lines -->
+    <line x1="135" y1="42" x2="135" y2="860" stroke="#39d353" stroke-opacity="0.28" stroke-width="1.2" class="v-stream-1" />
+    <line x1="360" y1="42" x2="360" y2="860" stroke="#38bdf8" stroke-opacity="0.24" stroke-width="1.2" class="v-stream-2" />
+    <line x1="585" y1="42" x2="585" y2="860" stroke="#39d353" stroke-opacity="0.26" stroke-width="1.2" class="v-stream-3" />
+    <line x1="765" y1="42" x2="765" y2="860" stroke="#10b981" stroke-opacity="0.25" stroke-width="1.2" class="v-stream-4" />
+
+    <!-- Animated Horizontal Moving Light-Beam Lines Across Entire README -->
+    <g filter="url(#glow)">
+      <rect id="line-1"  x="0" y="64"  width="280" height="2"   rx="1" fill="url(#beam-green)" />
+      <rect id="line-2"  x="0" y="138" width="240" height="1.8" rx="1" fill="url(#beam-cyan)" />
+      <rect id="line-3"  x="0" y="218" width="300" height="2"   rx="1" fill="url(#beam-emerald)" />
+      <rect id="line-4"  x="0" y="298" width="220" height="1.6" rx="1" fill="url(#beam-green)" />
+      <rect id="line-5"  x="0" y="382" width="320" height="2.2" rx="1" fill="url(#beam-cyan)" />
+      <rect id="line-6"  x="0" y="468" width="260" height="1.8" rx="1" fill="url(#beam-green)" />
+      <rect id="line-7"  x="0" y="555" width="240" height="2"   rx="1" fill="url(#beam-emerald)" />
+      <rect id="line-8"  x="0" y="645" width="300" height="1.8" rx="1" fill="url(#beam-cyan)" />
+      <rect id="line-9"  x="0" y="742" width="270" height="2"   rx="1" fill="url(#beam-green)" />
+      <rect id="line-10" x="0" y="818" width="230" height="1.6" rx="1" fill="url(#beam-emerald)" />
+    </g>
+
+    <!-- Subtle Vertical Scanline Sweep -->
+    <rect id="scanbar" x="0" y="0" width="900" height="90" fill="url(#scan-grad)" />
+
+    <!-- Terminal Title Bar -->
+    <rect x="0" y="0" width="900" height="42" fill="#0d131a" fill-opacity="0.92" />
+    <line x1="0" y1="42" x2="900" y2="42" stroke="#1f2d2a" stroke-width="1" />
+    <circle cx="24" cy="21" r="6" fill="#ff5f56" />
+    <circle cx="44" cy="21" r="6" fill="#ffbd2e" />
+    <circle cx="64" cy="21" r="6" fill="#27c93f" />
+    <text x="450" y="26" text-anchor="middle" fill="#8b949e" font-size="13" class="mono">mostafa@cairo: ~/data-analytics — bash</text>
+
+    <!-- SECTION 1: Hero Prompt -->
+    <text x="36" y="82" font-size="14" class="mono">
+      <tspan fill="#39d353" font-weight="700">mostafa@cairo</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">whoami --verbose</tspan>
+    </text>
+    <rect id="cursor" x="315" y="69" width="9" height="16" fill="#39d353" />
+
+    <text x="36" y="122" fill="#ffffff" font-size="30" font-weight="700" class="mono">MOSTAFA OSAMA</text>
+    <rect x="292" y="99" width="128" height="26" rx="6" fill="rgba(13,59,46,0.85)" stroke="#39d353" stroke-width="1" />
+    <text x="356" y="116" text-anchor="middle" fill="#39d353" font-size="12" font-weight="700" class="mono">DATA ANALYST</text>
+
+    <text x="36" y="150" fill="#9ca3af" font-size="13.5" class="mono">Cairo, Egypt  •  B.Sc. Computer Science @ BNU  •  Raw Data → Actionable Business Insights</text>
+
+    <line x1="36" y1="172" x2="864" y2="172" stroke="#1f2d2a" stroke-width="1" />
+
+    <!-- SECTION 2: Neofetch Profile Card -->
+    <text x="36" y="198" font-size="13.5" class="mono">
+      <tspan fill="#39d353" font-weight="700">mostafa@cairo</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">neofetch --profile</tspan>
+    </text>
+
+    <rect x="36" y="212" width="828" height="146" rx="10" fill="rgba(10,15,22,0.80)" stroke="#1f352e" stroke-width="1" />
+
+    <!-- ASCII Emblem -->
+    <text x="64" y="246" fill="#39d353" font-size="13" font-weight="700" class="mono">   ▄▄▄▄   ▄▄▄  ▄▄▄▄▄  ▄▄▄</text>
+    <text x="64" y="264" fill="#39d353" font-size="13" font-weight="700" class="mono">   █   █ █   █   █   █   █</text>
+    <text x="64" y="282" fill="#38bdf8" font-size="13" font-weight="700" class="mono">   █   █ █████   █   █████</text>
+    <text x="64" y="300" fill="#38bdf8" font-size="13" font-weight="700" class="mono">   ▀▀▀▀  ▀   ▀   ▀   ▀   ▀</text>
+    <text x="64" y="328" fill="#8b949e" font-size="11.5" class="mono">   [ ETL • BI • SQL • KPI ]</text>
+
+    <!-- Neofetch Details -->
+    <text x="315" y="238" fill="#39d353" font-size="13.5" font-weight="700" class="mono">mostafa@MostafaOsama0</text>
+    <text x="315" y="254" fill="#30363d" font-size="12" class="mono">----------------------------------------------------</text>
+    <text x="315" y="274" font-size="12.5" class="mono"><tspan fill="#38bdf8" font-weight="700">Role      </tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Data Analyst</tspan></text>
+    <text x="315" y="294" font-size="12.5" class="mono"><tspan fill="#38bdf8" font-weight="700">Focus     </tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">ETL, Data Modeling, KPIs, Dashboards</tspan></text>
+    <text x="315" y="314" font-size="12.5" class="mono"><tspan fill="#38bdf8" font-weight="700">Toolkit   </tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Power BI • SQL • Python • Power Query • Excel</tspan></text>
+    <text x="315" y="334" font-size="12.5" class="mono"><tspan fill="#38bdf8" font-weight="700">Education </tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">B.Sc. Computer Science @ BNU (Cairo, Egypt)</tspan></text>
+
+    <line x1="36" y1="378" x2="864" y2="378" stroke="#1f2d2a" stroke-width="1" />
+
+    <!-- SECTION 3: Skills Panels -->
+    <text x="36" y="404" font-size="13.5" class="mono">
+      <tspan fill="#39d353" font-weight="700">mostafa@cairo</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">cat skills.toml</tspan>
+    </text>
+
+    <!-- Left Panel: Technical Skills -->
+    <rect x="36" y="418" width="470" height="154" rx="10" fill="rgba(10,15,22,0.82)" stroke="#1f352e" stroke-width="1" />
+    <text x="54" y="442" fill="#38bdf8" font-size="13" font-weight="700" class="mono">[technical_skills]</text>
+    <text x="54" y="466" font-size="12" class="mono"><tspan fill="#39d353">power_bi    </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">["Dashboarding", "DAX", "Data Viz"]</tspan></text>
+    <text x="54" y="488" font-size="12" class="mono"><tspan fill="#39d353">sql         </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">["T-SQL", "3NF", "CTEs", "Windows"]</tspan></text>
+    <text x="54" y="510" font-size="12" class="mono"><tspan fill="#39d353">python      </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">["Pandas", "NumPy", "Matplotlib"]</tspan></text>
+    <text x="54" y="532" font-size="12" class="mono"><tspan fill="#39d353">power_query </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">["ETL", "Cleaning", "Transform"]</tspan></text>
+    <text x="54" y="554" font-size="12" class="mono"><tspan fill="#39d353">excel       </tspan><tspan fill="#8b949e">= </tspan><tspan fill="#e6edf3">["Pivot Tables", "VLOOKUP", "Formulas"]</tspan></text>
+
+    <!-- Right Panel: Core Skills -->
+    <rect x="524" y="418" width="340" height="154" rx="10" fill="rgba(10,15,22,0.82)" stroke="#1f352e" stroke-width="1" />
+    <text x="542" y="442" fill="#39d353" font-size="13" font-weight="700" class="mono">[core_skills]</text>
+    <text x="542" y="466" font-size="12.5" class="mono"><tspan fill="#38bdf8">▸ </tspan><tspan fill="#e6edf3">Data Storytelling</tspan></text>
+    <text x="542" y="488" font-size="12.5" class="mono"><tspan fill="#38bdf8">▸ </tspan><tspan fill="#e6edf3">Analytical Thinking</tspan></text>
+    <text x="542" y="510" font-size="12.5" class="mono"><tspan fill="#38bdf8">▸ </tspan><tspan fill="#e6edf3">Problem Solving</tspan></text>
+    <text x="542" y="532" font-size="12.5" class="mono"><tspan fill="#38bdf8">▸ </tspan><tspan fill="#e6edf3">Communication Skills</tspan></text>
+    <text x="542" y="554" font-size="12.5" class="mono"><tspan fill="#38bdf8">▸ </tspan><tspan fill="#e6edf3">Team Collaboration</tspan></text>
+
+    <line x1="36" y1="592" x2="864" y2="592" stroke="#1f2d2a" stroke-width="1" />
+
+    <!-- SECTION 4: Featured Public Projects (2x2 Terminal Cards) -->
+    <text x="36" y="618" font-size="13.5" class="mono">
+      <tspan fill="#39d353" font-weight="700">mostafa@cairo</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">ls -lh ./featured-projects/</tspan>
+    </text>
+
+    <!-- Card 1 -->
+    <rect x="36" y="632" width="404" height="86" rx="10" fill="rgba(10,15,22,0.84)" stroke="#234136" stroke-width="1" />
+    <text x="52" y="656" fill="#39d353" font-size="13" font-weight="700" class="mono">Olist-ECommerce-Analytics</text>
+    <text x="52" y="677" fill="#c9d1d9" font-size="11.5" class="mono">100K+ orders &amp; $16.01M+ revenue; 3.12% repeat rate</text>
+    <text x="52" y="695" fill="#c9d1d9" font-size="11.5" class="mono">&amp; 2x delivery delay driver behind 1-star reviews</text>
+    <text x="52" y="711" fill="#38bdf8" font-size="10.5" class="mono">[ Power BI • DAX • Power Query ]</text>
+
+    <!-- Card 2 -->
+    <rect x="460" y="632" width="404" height="86" rx="10" fill="rgba(10,15,22,0.84)" stroke="#23374a" stroke-width="1" />
+    <text x="476" y="656" fill="#38bdf8" font-size="13" font-weight="700" class="mono">HR-Database-Management-SQL</text>
+    <text x="476" y="677" fill="#c9d1d9" font-size="11.5" class="mono">3NF relational schema, bulk ETL data ingestion,</text>
+    <text x="476" y="695" fill="#c9d1d9" font-size="11.5" class="mono">CTEs &amp; window functions (DENSE_RANK, ROW_NUMBER)</text>
+    <text x="476" y="711" fill="#39d353" font-size="10.5" class="mono">[ SQL Server • T-SQL • ETL ]</text>
+
+    <!-- Card 3 -->
+    <rect x="36" y="730" width="404" height="86" rx="10" fill="rgba(10,15,22,0.84)" stroke="#23374a" stroke-width="1" />
+    <text x="52" y="754" fill="#38bdf8" font-size="13" font-weight="700" class="mono">UK_Youtubers_ROI_Analysis</text>
+    <text x="52" y="775" fill="#c9d1d9" font-size="11.5" class="mono">Dynamic "What-If" Net Profit &amp; ROI simulator</text>
+    <text x="52" y="793" fill="#c9d1d9" font-size="11.5" class="mono">linking financial outcomes to audience quality</text>
+    <text x="52" y="809" fill="#39d353" font-size="10.5" class="mono">[ SQL • Power BI • DAX ]</text>
+
+    <!-- Card 4 -->
+    <rect x="460" y="730" width="404" height="86" rx="10" fill="rgba(10,15,22,0.84)" stroke="#234136" stroke-width="1" />
+    <text x="476" y="754" fill="#39d353" font-size="13" font-weight="700" class="mono">Social-media-metrics-Project</text>
+    <text x="476" y="775" fill="#c9d1d9" font-size="11.5" class="mono">Multi-platform impressions dashboard with</text>
+    <text x="476" y="793" fill="#c9d1d9" font-size="11.5" class="mono">automated data cleaning &amp; validation workflows</text>
+    <text x="476" y="809" fill="#38bdf8" font-size="10.5" class="mono">[ Advanced Excel • Pivot Tables ]</text>
+
+    <!-- Terminal Bottom Status Bar -->
+    <rect x="0" y="830" width="900" height="30" fill="#0d131a" fill-opacity="0.92" />
+    <line x1="0" y1="830" x2="900" y2="830" stroke="#1f2d2a" stroke-width="1" />
+    <circle cx="22" cy="845" r="4" fill="#39d353" />
+    <text x="34" y="849" fill="#39d353" font-size="11" class="mono">ONLINE</text>
+    <text x="108" y="849" fill="#8b949e" font-size="11" class="mono">UTF-8  |  PUBLIC PROFILE  |  github.com/MostafaOsama0</text>
+  </g>
+
+  <!-- Outer Crisp Border -->
+  <rect x="0.5" y="0.5" width="899" height="859" rx="16" ry="16" fill="none" stroke="rgba(57,211,83,0.35)" stroke-width="1" />
+</svg>
