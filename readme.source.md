@@ -179,30 +179,26 @@
     </span>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'column', width: 222, flexShrink: 0, justifyContent: 'center', gap: 11, background: 'rgba(15,14,28,0.62)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(139,92,246,0.24)' }}>
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 2 }}>
+  <div style={{ display: 'flex', flexDirection: 'column', width: 222, flexShrink: 0, justifyContent: 'center', gap: 14, background: 'rgba(15,14,28,0.62)', borderRadius: 16, padding: '18px 18px', border: '1px solid rgba(139,92,246,0.24)' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
       <span style={{ fontSize: 10.5, fontWeight: 700, color: '#a5b4fc', letterSpacing: 2, textTransform: 'uppercase' }}>Top Languages</span>
-      <span style={{ fontSize: 9.5, color: '#67e8f9', letterSpacing: 1 }}>LIVE</span>
+      <span style={{ fontSize: 9.5, color: '#67e8f9', letterSpacing: 1 }}>CORE</span>
     </div>
-    {(github && github.languages && github.languages.length > 0
-      ? github.languages.slice(0, 4)
-      : [
-          { name: 'SQL', percentage: 40, color: '#22d3ee' },
-          { name: 'Python', percentage: 35, color: '#a78bfa' },
-          { name: 'Power BI', percentage: 15, color: '#818cf8' },
-          { name: 'Excel', percentage: 10, color: '#86efac' },
-        ]
-    ).map((lang, idx) => (
-      <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+    {[
+      { name: 'SQL', tag: 'SQL Server · T-SQL', pct: 90, color: '#22d3ee' },
+      { name: 'Python', tag: 'Pandas · NumPy · Matplotlib', pct: 80, color: '#a78bfa' },
+    ].map((lang, idx) => (
+      <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            <div style={{ width: 7, height: 7, borderRadius: 4, background: lang.color || '#22d3ee' }} />
-            <span style={{ fontSize: 11.5, fontWeight: 600, color: '#f1f5f9' }}>{lang.name}</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+            <div style={{ width: 7, height: 7, borderRadius: 4, background: lang.color }} />
+            <span style={{ fontSize: 13, fontWeight: 700, color: '#f8fafc' }}>{lang.name}</span>
           </div>
-          <span style={{ fontSize: 11, fontWeight: 600, color: '#94a3b8' }}>{lang.percentage}%</span>
+          <span style={{ fontSize: 10, fontWeight: 600, color: lang.color }}>Active</span>
         </div>
-        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(255,255,255,0.07)', borderRadius: 100, overflow: 'hidden' }}>
-          <div style={{ width: `${Math.max(lang.percentage, 8)}%`, height: '100%', background: lang.color || '#8b5cf6', borderRadius: 100 }} />
+        <span style={{ fontSize: 10.5, color: '#94a3b8' }}>{lang.tag}</span>
+        <div style={{ display: 'flex', width: '100%', height: 6, background: 'rgba(255,255,255,0.08)', borderRadius: 100, overflow: 'hidden', marginTop: 2 }}>
+          <div style={{ width: `${lang.pct}%`, height: '100%', background: lang.color, borderRadius: 100 }} />
         </div>
       </div>
     ))}
@@ -247,7 +243,7 @@
 </div>
 ```
 
-```aura width=800 height=320
+```aura width=800 height=340
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#07070d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(139,92,246,0.24)', padding: '22px 26px' }}>
   <style>{`
     @keyframes sk-o1 { 0%, 100% { transform: translate(0, 0); opacity: 0.5; } 50% { transform: translate(30px, -16px); opacity: 0.85; } }
@@ -256,7 +252,7 @@
     #sk-g2 { animation: sk-o2 11s ease-in-out infinite 0.7s; }
   `}</style>
 
-  <svg width="800" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="800" height="340" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="sk-rg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(139,92,246,0.45)" />
@@ -267,47 +263,114 @@
         <stop offset="70%" stopColor="rgba(34,211,238,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="sk-g1" cx="120" cy="270" rx="230" ry="150" fill="url(#sk-rg1)" />
-    <ellipse id="sk-g2" cx="690" cy="50" rx="220" ry="145" fill="url(#sk-rg2)" />
+    <ellipse id="sk-g1" cx="120" cy="290" rx="230" ry="155" fill="url(#sk-rg1)" />
+    <ellipse id="sk-g2" cx="690" cy="50" rx="220" ry="150" fill="url(#sk-rg2)" />
   </svg>
 
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, zIndex: 10 }}>
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
     <span style={{ fontSize: 19, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3 }}>Skills</span>
-    <span style={{ fontSize: 11, color: '#67e8f9', letterSpacing: 2, textTransform: 'uppercase' }}>Technical & Analytical Toolkit</span>
+    <span style={{ fontSize: 11, color: '#67e8f9', letterSpacing: 2, textTransform: 'uppercase' }}>Technical Stack & Analytics Domains</span>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'row', gap: 16, flex: 1, zIndex: 10 }}>
-    <div style={{ display: 'flex', flexDirection: 'column', flex: 1.35, gap: 9, background: 'rgba(15,14,28,0.65)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(139,92,246,0.2)' }}>
+  <div style={{ display: 'flex', flexDirection: 'row', gap: 16, flex: 1 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1.28, gap: 9, background: 'rgba(15,14,28,0.65)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(139,92,246,0.2)' }}>
       <span style={{ fontSize: 10.5, fontWeight: 700, color: '#a5b4fc', letterSpacing: 1.8, textTransform: 'uppercase', marginBottom: 2 }}>Technical Stack</span>
       {[
         { name: 'Advanced Excel', detail: 'VLookup, Conditional Formatting, Pivot Tables, Formulas', color: '#86efac' },
-        { name: 'Power BI', detail: 'Dashboarding, Data Visualization', color: '#fde047' },
-        { name: 'SQL', detail: '', color: '#67e8f9' },
-        { name: 'Python', detail: 'Pandas, NumPy, Matpolib', color: '#a5b4fc' },
+        { name: 'Power BI', detail: 'Dashboarding, Data Visualization, DAX', color: '#fde047' },
+        { name: 'SQL & SQL Server', detail: 'CTEs, Joins, Window Functions, Views', color: '#67e8f9' },
+        { name: 'Python', detail: 'Pandas, NumPy, Matplotlib', color: '#a5b4fc' },
         { name: 'Power Query', detail: 'ETL, Data Transformation', color: '#f0abfc' },
       ].map((s, idx) => (
         <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '6px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: 10, border: '1px solid rgba(255,255,255,0.07)' }}>
           <div style={{ width: 6, height: 6, borderRadius: 3, background: s.color, flexShrink: 0 }} />
-          <span style={{ fontSize: 12.5, fontWeight: 700, color: '#f8fafc', flexShrink: 0 }}>{s.name}</span>
-          {s.detail ? <span style={{ fontSize: 11.5, color: '#94a3b8' }}>({s.detail})</span> : null}
+          <span style={{ fontSize: 12.2, fontWeight: 700, color: '#f8fafc', flexShrink: 0 }}>{s.name}</span>
+          {s.detail ? <span style={{ fontSize: 11.2, color: '#94a3b8' }}>({s.detail})</span> : null}
         </div>
       ))}
     </div>
 
-    <div style={{ display: 'flex', flexDirection: 'column', flex: 0.85, gap: 9, background: 'rgba(15,14,28,0.65)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(34,211,238,0.2)' }}>
-      <span style={{ fontSize: 10.5, fontWeight: 700, color: '#67e8f9', letterSpacing: 1.8, textTransform: 'uppercase', marginBottom: 2 }}>Core Strengths</span>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 0.92, gap: 9, background: 'rgba(15,14,28,0.65)', borderRadius: 16, padding: '16px 18px', border: '1px solid rgba(34,211,238,0.2)' }}>
+      <span style={{ fontSize: 10.5, fontWeight: 700, color: '#67e8f9', letterSpacing: 1.8, textTransform: 'uppercase', marginBottom: 2 }}>Analytics & Methods</span>
       {[
-        'Data Storytelling',
-        'Analytical Thinking',
-        'Problem solving',
-        'Communication Skills',
-        'Team Collaboration',
-      ].map((soft, idx) => (
-        <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: 9, padding: '7px 12px', background: 'rgba(34,211,238,0.06)', borderRadius: 10, border: '1px solid rgba(34,211,238,0.16)' }}>
-          <div style={{ width: 6, height: 6, borderRadius: 3, background: '#22d3ee', flexShrink: 0 }} />
-          <span style={{ fontSize: 12.5, fontWeight: 600, color: '#e2e8f0' }}>{soft}</span>
+        { name: 'Data Modeling', color: '#22d3ee' },
+        { name: 'Statistics', color: '#a78bfa' },
+        { name: 'AI Automation', color: '#f0abfc' },
+        { name: 'Data Storytelling', color: '#38bdf8' },
+        { name: 'ETL & KPI Design', color: '#86efac' },
+      ].map((item, idx) => (
+        <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: 9, padding: '7px 12px', background: 'rgba(34,211,238,0.05)', borderRadius: 10, border: '1px solid rgba(34,211,238,0.16)' }}>
+          <div style={{ width: 6, height: 6, borderRadius: 3, background: item.color, flexShrink: 0 }} />
+          <span style={{ fontSize: 12.2, fontWeight: 600, color: '#e2e8f0' }}>{item.name}</span>
         </div>
       ))}
+    </div>
+  </div>
+</div>
+```
+
+```aura width=800 height=195
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#07070d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(34,211,238,0.24)', padding: '20px 26px' }}>
+  <style>{`
+    @keyframes tl-o1 { 0%, 100% { transform: translate(0, 0); opacity: 0.45; } 50% { transform: translate(26px, -12px); opacity: 0.8; } }
+    @keyframes tl-o2 { 0%, 100% { transform: translate(0, 0); opacity: 0.4; } 50% { transform: translate(-22px, 12px); opacity: 0.75; } }
+    #tl-g1 { animation: tl-o1 9.5s ease-in-out infinite; }
+    #tl-g2 { animation: tl-o2 11s ease-in-out infinite 0.5s; }
+  `}</style>
+
+  <svg width="800" height="195" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="tl-rg1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(34,211,238,0.42)" />
+        <stop offset="70%" stopColor="rgba(34,211,238,0)" />
+      </radialGradient>
+      <radialGradient id="tl-rg2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(139,92,246,0.45)" />
+        <stop offset="70%" stopColor="rgba(139,92,246,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="tl-g1" cx="150" cy="175" rx="220" ry="110" fill="url(#tl-rg1)" />
+    <ellipse id="tl-g2" cx="670" cy="30" rx="210" ry="110" fill="url(#tl-rg2)" />
+  </svg>
+
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 14 }}>
+    <span style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: -0.3 }}>Tools & Environment</span>
+    <span style={{ fontSize: 11, color: '#a5b4fc', letterSpacing: 2, textTransform: 'uppercase' }}>Daily Workspace & Version Control</span>
+  </div>
+
+  <div style={{ display: 'flex', flexDirection: 'row', gap: 16, flex: 1 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1.55, justifyContent: 'center', gap: 10, background: 'rgba(15,14,28,0.65)', borderRadius: 14, padding: '14px 18px', border: '1px solid rgba(139,92,246,0.22)' }}>
+      <span style={{ fontSize: 10.5, fontWeight: 700, color: '#a5b4fc', letterSpacing: 1.8, textTransform: 'uppercase' }}>Analytics & Dev Workspace</span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+        {[
+          { name: 'Jupyter Notebook', color: '#fb923c' },
+          { name: 'VS Code', color: '#38bdf8' },
+          { name: 'Power BI', color: '#fde047' },
+          { name: 'SQL Server', color: '#22d3ee' },
+          { name: 'Microsoft Excel', color: '#86efac' },
+          { name: 'AI Automation', color: '#f0abfc' },
+        ].map((tool, idx) => (
+          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '5px 12px', background: 'rgba(255,255,255,0.04)', borderRadius: 100, border: '1px solid rgba(255,255,255,0.1)' }}>
+            <div style={{ width: 6, height: 6, borderRadius: 3, background: tool.color }} />
+            <span style={{ fontSize: 11.8, fontWeight: 600, color: '#f1f5f9' }}>{tool.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 0.72, justifyContent: 'center', gap: 10, background: 'rgba(15,14,28,0.65)', borderRadius: 14, padding: '14px 18px', border: '1px solid rgba(34,211,238,0.22)' }}>
+      <span style={{ fontSize: 10.5, fontWeight: 700, color: '#67e8f9', letterSpacing: 1.8, textTransform: 'uppercase' }}>Version Control</span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+        {[
+          { name: 'Git', color: '#fb7185' },
+          { name: 'GitHub', color: '#e2e8f0' },
+        ].map((vc, idx) => (
+          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '6px 14px', background: 'rgba(34,211,238,0.06)', borderRadius: 100, border: '1px solid rgba(34,211,238,0.2)' }}>
+            <div style={{ width: 6, height: 6, borderRadius: 3, background: vc.color }} />
+            <span style={{ fontSize: 12, fontWeight: 600, color: '#f8fafc' }}>{vc.name}</span>
+          </div>
+        ))}
+      </div>
     </div>
   </div>
 </div>
