@@ -6,8 +6,6 @@
 
 Based in Cairo, Egypt. I build end-to-end analytics projects spanning SQL database design, data cleaning and transformation (Power Query & Python), data modeling, and interactive dashboards in Power BI and Excel.
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/mostafaosama0/) · [Email](mailto:mostafaosama7213@gmail.com)
-
 ![](./.github/assets/readme-aura-component-1-f663e73f.svg)
 
 ## Featured Projects
